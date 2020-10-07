@@ -11,4 +11,6 @@ let say: **section1.tex**, **section1.tex**, **section1.tex**.
 for simplicity I added a folder named sections, so you will add your section files in **sections/my_section.tex**.
 
 To add your files to the final PDF just open up in the root the file called report.text, then go to the document section and add them
-in the **\input(your_file.tex)**. Finally, just compile your file and that's all.
+in the **\input(your_file.tex)**. 
+
+Finally, just compile your file and that's all.
