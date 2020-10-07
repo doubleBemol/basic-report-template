@@ -1,4 +1,4 @@
-# basic-report-template
+# Basic Report Template for Teams in Labs
 
 Basic team report written in LaTeX (Spanish encoding)
 
