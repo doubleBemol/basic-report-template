@@ -1,0 +1,55 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[section]{placeins}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{graphicx, amsmath, amsfonts, amssymb, subfigure, blindtext}
+
+% START EDIT HERE
+\newcommand{\experimentname}{Some laboratory with a large name}
+\newcommand{\experimentnumber}{0}
+\newcommand{\subjectname}{SEMINARIO DE SISTEMAS EMBEBIDOS}
+\newcommand{\teamnamesone}{Some Student Name}
+\newcommand{\teamnamestwo}{Got More Long Names}
+\newcommand{\teamnamesthree}{Why Are Spanish Names So Long}
+\newcommand{\teamnamesfour}{Really They Are Long}
+\newcommand{\professorname}{A very normal teacher's name}
+% END EDIT HERE
+
+\begin{document}
+    \begin{titlepage}
+        \begin{center}
+            \includegraphics[width=5cm]{data/private_img/udg-logo.png}\\
+            \vspace{1.2cm}
+            \huge{UNIVERSIDAD DE GUADALAJARA}\\
+            \Large{\subjectname}\\
+            \rule{16cm}{0.8pt}\\
+            \vspace{0.7cm}
+            \Large{\textbf{Laboratorio \experimentnumber}\\\LARGE{\textit{\experimentname}}}
+        \end{center}
+        \vspace{1cm}
+        \begin{center}
+            \begin{tabular}{p{8cm}p{6cm}}
+                \textbf{Alumnos:} & \textbf{Profesor:}\\
+                \teamnamesone & \professorname\\
+                \teamnamestwo & \\
+                \teamnamesthree & \\
+                \teamnamesfour & 
+            \end{tabular}
+        \end{center}
+        \vspace{3.1416cm}
+        \begin{center}
+            \textbf{\large{\today}}
+        \end{center}
+        
+        
+    \end{titlepage}
+    \newpage
+    % Add files in the sections folder, then just add the path using
+    % \input{path_to file}
+   
+    % START ADDING FILES HERE
+    \input{sections/test.tex}
+    % END ADDING FILES HERE
+
+\end{document}
