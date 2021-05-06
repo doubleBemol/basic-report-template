@@ -3,7 +3,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[section]{placeins}
 \usepackage[margin=2.4cm]{geometry}
-\usepackage{graphicx, amsmath, amsfonts, amssymb, subfigure, blindtext}
+\usepackage[backend=biber]{biblatex}
+\usepackage{graphicx, amsmath, amsfonts, amssymb, subfigure, blindtext, multicol}
+
+\addbibresource{my-references.bib}
 
 % START EDIT HERE
 \newcommand{\experimentname}{Some laboratory with a large name}
@@ -51,5 +54,8 @@
     % START ADDING FILES HERE
     \input{sections/test.tex}
     % END ADDING FILES HERE
+    
+    % To show bib elements they must be cited first in the document
+    \printbibliography
 
 \end{document}
