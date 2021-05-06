@@ -6,6 +6,16 @@
 \usepackage[backend=biber]{biblatex}
 \usepackage{graphicx, amsmath, amsfonts, amssymb, subfigure, blindtext, multicol, csquotes}
 
+% This enviroment is for adding figures in multicol only, to use:
+% \begin{Figure}
+%     \centering
+%     \includegraphics[width=\linewidth]{path_to_img}
+%     \captionof{figure}{my caption of the figure}
+% \end{Figure}
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}
+  {\endminipage\par\medskip}}
+
 \addbibresource{data/bibiliography.bib}
 
 % START EDIT HERE
