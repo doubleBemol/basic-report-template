@@ -4,7 +4,12 @@
 \usepackage[section]{placeins}
 \usepackage[margin=2.4cm]{geometry}
 \usepackage[backend=biber]{biblatex}
-\usepackage{graphicx, amsmath, amsfonts, amssymb, subfigure, blindtext, multicol, csquotes, caption, hyperref}
+\usepackage{graphicx, amsmath, amsfonts, amssymb, subfigure, blindtext, multicol, csquotes, caption, hyperref, lstlisting}
+
+% To add code use this example
+% \begin{lstlisting}[language=Python]
+% your code goes here
+% \end{lstlisting}
 
 % This enviroment is for adding figures in multicol only, to use:
 % \begin{Figure}
@@ -12,6 +17,7 @@
 %     \includegraphics[width=\linewidth]{path_to_img}
 %     \captionof{figure}{my caption of the figure}
 % \end{Figure}
+
 \newenvironment{Figure}
   {\par\medskip\noindent\minipage{\linewidth}
   {\endminipage\par\medskip}}
