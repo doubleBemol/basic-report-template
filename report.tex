@@ -8,9 +8,9 @@
 \usepackage{graphicx, amsmath, amsfonts, amssymb, subfigure, blindtext, multicol, csquotes, caption, listings}
 
 % sorting=none is added to the biblatex to stop the internal sorting and show the citations as they were cited in the document,
-% delete that property if you want to use the interla sorting of biblatex.
+% delete that property if you want to use the internal biblatex sorting.
 
-% To add code with listings use this example
+% To add code with listings follow this example
 % from file copy all code use:
 % \lstinputlisting[language=Python]{data/code/greyBody.py}
 %
@@ -29,13 +29,14 @@
 %     \captionof{figure}{my caption of the figure}
 % \end{Figure}
 
+% This is used for adding figures in a multicol enviroment.
 \newenvironment{Figure}
   {\par\medskip\noindent\minipage{\linewidth}
   {\endminipage\par\medskip}}
 
 \addbibresource{data/bibliography.bib}
 
-% START EDIT HERE
+% START EDITING HERE
 \newcommand{\experimentname}{Some laboratory with a large name}
 \newcommand{\kinofreport}{Laboratorio}
 \newcommand{\experimentnumber}{0}
@@ -45,7 +46,7 @@
 \newcommand{\teamnamesthree}{Why Are Spanish Names So Long}
 \newcommand{\teamnamesfour}{Really They Are Long}
 \newcommand{\professorname}{A very normal teacher's name}
-% END EDIT HERE
+% END EDITING HERE
 
 \begin{document}
     \begin{titlepage}
