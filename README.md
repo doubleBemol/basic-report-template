@@ -9,13 +9,13 @@ This latex template uses files.
 Add your sections as files (inside this files you can have subsection etc.) , so if you need three sections you need to create 3 files, 
 let say: 
 
-```bash
+```Shell
 $ touch sections/{section1.tex,section2.tex,section3.tex}
 ```
 
 for simplicity I added a folder named sections, so you will add your section files in:
 
-```bash
+```Shell
 ./sections/
 ```
 
